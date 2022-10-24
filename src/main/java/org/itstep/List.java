@@ -3,7 +3,7 @@ package org.itstep;
 import java.util.Arrays;
 
 // FIXME: обобщенный тип должен быть классом расширяющим интерфейс Comparable<T>
-class List<T extends Comparable> {
+class List<T extends Comparable<T>> {
     private T[] arrays;
 
     public List() {
